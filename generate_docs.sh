@@ -1,6 +1,11 @@
 #!/bin/bash
 set -e
 
+echo "======================================"
+echo "Roo Libraries - Documentation Generator"
+echo "======================================"
+echo ""
+
 # List of repositories to generate documentation for
 REPOS=(
     "roo_display"
@@ -43,23 +48,28 @@ OUTPUT_DIR="docs"
 mkdir -p "$TEMP_DIR"
 mkdir -p "$OUTPUT_DIR"
 
+echo "Generating documentation for ${#REPOS[@]} repositories..."
+echo ""
+
 # Generate documentation for each repository
+COUNT=0
 for REPO in "${REPOS[@]}"; do
-    echo "Processing $REPO..."
+    COUNT=$((COUNT+1))
+    echo "[$COUNT/${#REPOS[@]}] Processing $REPO..."
     
     # Clone the repository
     if [ -d "$TEMP_DIR/$REPO" ]; then
-        echo "  Repository already cloned, pulling latest changes..."
+        echo "  ↻ Repository already cloned, pulling latest changes..."
         cd "$TEMP_DIR/$REPO"
         git pull -q || true
         cd ../..
     else
-        echo "  Cloning repository..."
+        echo "  ⬇ Cloning repository..."
         git clone -q --depth 1 "https://github.com/$GITHUB_USER/$REPO.git" "$TEMP_DIR/$REPO" 2>&1 | grep -v "^Cloning" || true
     fi
     
     # Generate Doxyfile from template
-    echo "  Generating documentation..."
+    echo "  📝 Generating documentation..."
     sed "s/@REPO_NAME@/$REPO/g" Doxyfile.template > "$TEMP_DIR/Doxyfile.$REPO"
     
     # Run doxygen
@@ -67,7 +77,9 @@ for REPO in "${REPOS[@]}"; do
     rm "$TEMP_DIR/Doxyfile.$REPO"
     
     echo "  ✓ Documentation generated for $REPO"
+    echo ""
 done
 
-echo ""
+echo "======================================"
 echo "✓ All documentation generated successfully!"
+echo "======================================"
