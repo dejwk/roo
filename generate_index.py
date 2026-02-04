@@ -244,7 +244,7 @@ def generate_index():
         </div>
         
         <footer>
-            <p>Documentation generated on {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}</p>
+            <p>Documentation generated on {datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
             <p>
                 View all repositories: 
                 <a href="https://github.com/dejwk?tab=repositories&q=roo_" class="github-link" target="_blank">

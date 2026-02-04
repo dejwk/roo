@@ -51,6 +51,10 @@ mkdir -p "$OUTPUT_DIR"
 echo "Generating documentation for ${#REPOS[@]} repositories..."
 echo ""
 
+# Track success/failure
+SUCCESSFUL=()
+FAILED=()
+
 # Generate documentation for each repository
 COUNT=0
 for REPO in "${REPOS[@]}"; do
@@ -61,25 +65,49 @@ for REPO in "${REPOS[@]}"; do
     if [ -d "$TEMP_DIR/$REPO" ]; then
         echo "  ↻ Repository already cloned, pulling latest changes..."
         cd "$TEMP_DIR/$REPO"
-        git pull -q || true
+        if ! git pull -q; then
+            echo "  ⚠ Warning: Failed to pull latest changes, using existing version"
+        fi
         cd ../..
     else
         echo "  ⬇ Cloning repository..."
-        git clone -q --depth 1 "https://github.com/$GITHUB_USER/$REPO.git" "$TEMP_DIR/$REPO" 2>&1 | grep -v "^Cloning" || true
+        if ! git clone -q --depth 1 "https://github.com/$GITHUB_USER/$REPO.git" "$TEMP_DIR/$REPO" 2>&1 | grep -v "^Cloning"; then
+            echo "  ✗ Failed to clone $REPO, skipping..."
+            FAILED+=("$REPO")
+            echo ""
+            continue
+        fi
     fi
     
     # Generate Doxyfile from template
     echo "  📝 Generating documentation..."
     sed "s/@REPO_NAME@/$REPO/g" Doxyfile.template > "$TEMP_DIR/Doxyfile.$REPO"
     
-    # Run doxygen
-    doxygen "$TEMP_DIR/Doxyfile.$REPO" 2>&1 | grep -E "(error|Error)" || true
-    rm "$TEMP_DIR/Doxyfile.$REPO"
+    # Run doxygen and capture errors
+    if ! doxygen "$TEMP_DIR/Doxyfile.$REPO" > /dev/null 2>&1; then
+        echo "  ⚠ Warning: Doxygen reported errors for $REPO"
+        FAILED+=("$REPO")
+    else
+        echo "  ✓ Documentation generated for $REPO"
+        SUCCESSFUL+=("$REPO")
+    fi
     
-    echo "  ✓ Documentation generated for $REPO"
+    rm "$TEMP_DIR/Doxyfile.$REPO"
     echo ""
 done
 
 echo "======================================"
-echo "✓ All documentation generated successfully!"
+echo "Documentation Generation Complete"
+echo "======================================"
+echo "Successful: ${#SUCCESSFUL[@]}"
+echo "Failed: ${#FAILED[@]}"
+
+if [ ${#FAILED[@]} -gt 0 ]; then
+    echo ""
+    echo "Failed repositories:"
+    for REPO in "${FAILED[@]}"; do
+        echo "  - $REPO"
+    done
+fi
+
 echo "======================================"
