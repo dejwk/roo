@@ -1,5 +1,5 @@
 temp_repos/
 docs/
-Doxyfile.*
+Doxyfile.roo_*
 *.log
 .DS_Store
