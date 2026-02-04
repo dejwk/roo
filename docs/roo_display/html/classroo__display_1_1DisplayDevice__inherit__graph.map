@@ -1,0 +1,27 @@
+<map id="roo_display::DisplayDevice" name="roo_display::DisplayDevice">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,339,449,365"/>
+<area shape="rect" id="Node000003" href="$classroo__display_1_1AddrWindowDevice.html" title=" " alt="" coords="518,5,749,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="354,325,369,269,396,195,415,157,437,120,464,85,496,55,516,42,519,47,499,59,468,89,442,123,419,159,401,197,374,270,359,326"/>
+<area shape="rect" id="Node000004" href="$classroo__display_1_1OffscreenDevice.html" title=" " alt="" coords="497,69,769,168"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="365,326,418,255,455,214,496,178,513,166,516,170,499,182,458,218,422,258,369,329"/>
+<area shape="rect" id="Node000005" href="$classroo__display_1_1OffscreenDevice.html" title=" " alt="" coords="513,192,753,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="373,328,427,284,460,261,496,242,527,230,529,235,498,246,463,266,430,288,376,332"/>
+<area shape="rect" id="Node000006" href="$classroo__display_1_1OffscreenDevice.html" title=" " alt="" coords="499,256,768,355"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="441,334,498,325,499,330,442,340"/>
+<area shape="rect" id="Node000007" href="$classroo__display_1_1AddrWindowDevice.html" title=" " alt="" coords="518,379,749,419"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="441,364,518,377,517,382,441,370"/>
+<area shape="rect" id="Node000011" href="$classroo__display_1_1BackgroundFillOptimizerDevice.html" title=" " alt="" coords="533,443,733,483"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="384,370,436,400,498,428,535,440,534,445,496,433,434,404,381,374"/>
+<area shape="rect" id="Node000012" href="$classroo__display_1_1BufferedAddrWindowDevice.html" title=" " alt="" coords="539,507,728,547"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="371,374,424,434,459,466,499,492,540,509,538,514,496,497,456,470,420,438,367,378"/>
+<area shape="rect" id="Node000013" href="$classroo__display_1_1OffscreenDevice.html" title=" " alt="" coords="528,571,739,640"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="365,376,385,415,415,464,453,514,499,557,529,574,527,579,496,561,449,517,411,467,381,418,360,378"/>
+<area shape="rect" id="Node000002" href="$classroo__display_1_1DisplayOutput.html" title=" " alt="" coords="5,339,203,365"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,349,250,349,250,355,217,355"/>
+<area shape="rect" id="Node000008" href="$classroo__display_1_1products_1_1noname_1_1st7735__red_1_1TftModule__128x128__144in.html" title=" " alt="" coords="817,271,1019,340"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="740,373,768,364,839,338,841,343,770,369,742,378"/>
+<area shape="rect" id="Node000009" href="$classroo__display_1_1products_1_1waveshare_1_1LcdModule__128x160.html" title=" " alt="" coords="825,364,1011,433"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="763,396,825,396,825,401,763,401"/>
+<area shape="rect" id="Node000010" href="$classroo__display_1_1products_1_1waveshare_1_1LcdModule__160x80.html" title=" " alt="" coords="829,457,1007,527"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="742,420,770,428,841,455,839,460,768,433,740,425"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="roo_display::internal::RectFillWriter" name="roo_display::internal::RectFillWriter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,108,245,148"/>
+<area shape="rect" id="Node000002" href="$classroo__display_1_1Color.html" title=" " alt="" coords="5,13,144,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,46,152,106,148,110,93,50"/>
+<area shape="rect" id="Node000003" href="$classroo__display_1_1BufferedRectWriter.html" title=" " alt="" coords="169,5,357,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,57,188,110,184,106,234,54"/>
+</map>

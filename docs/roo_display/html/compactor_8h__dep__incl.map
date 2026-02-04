@@ -1,0 +1,35 @@
+<map id="temp_repos/roo_display/src/roo_display/driver/common/compactor.h" name="temp_repos/roo_display/src/roo_display/driver/common/compactor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1257,5,1435,60"/>
+<area shape="rect" id="Node000002" href="$addr__window__device_8h.html" title=" " alt="" coords="1099,115,1334,170"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1305,71,1250,117,1247,113,1302,67"/>
+<area shape="rect" id="Node000016" href="$buffered__addr__window__device_8h.html" title=" " alt="" coords="1533,108,1767,177"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1434,62,1556,105,1555,110,1432,67"/>
+<area shape="rect" id="Node000003" href="$ili9341_8h.html" title=" " alt="" coords="357,225,535,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1086,165,536,241,535,236,1085,160"/>
+<area shape="rect" id="Node000006" href="$ili9486_8h.html" title=" " alt="" coords="666,225,845,280"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1092,176,846,233,844,228,1090,171"/>
+<area shape="rect" id="Node000008" href="$ili9488_8h.html" title=" " alt="" coords="925,225,1103,280"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="1157,179,1065,228,1062,223,1154,174"/>
+<area shape="rect" id="Node000009" href="$st7735_8h.html" title=" " alt="" coords="1127,225,1306,280"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="1219,184,1219,225,1214,225,1214,184"/>
+<area shape="rect" id="Node000013" href="$st7789_8h.html" title=" " alt="" coords="1330,225,1509,280"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="1279,174,1371,223,1369,228,1277,179"/>
+<area shape="rect" id="Node000014" href="$st7796s_8h.html" title=" " alt="" coords="1533,225,1711,280"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="1329,171,1533,225,1532,230,1328,176"/>
+<area shape="rect" id="Node000004" href="$kmrtm32032__spi_8h.html" title=" " alt="" coords="5,335,287,390"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="361,287,220,338,218,333,359,282"/>
+<area shape="rect" id="Node000005" href="$tjctm24024__spi_8h.html" title=" " alt="" coords="311,335,581,390"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="449,294,449,335,443,335,443,294"/>
+<area shape="rect" id="Node000007" href="$tft__touch__shield__4in_8h.html" title=" " alt="" coords="606,335,849,390"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="748,294,737,336,732,334,742,293"/>
+<area shape="rect" id="Node000010" href="$tft__module__128x128__144__in_8h.html" title=" " alt="" coords="873,328,1102,397"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1149,288,1060,330,1058,325,1147,284"/>
+<area shape="rect" id="Node000011" href="$lcd__module__128x160__18__in_8h.html" title=" " alt="" coords="1127,328,1365,397"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="1230,293,1239,327,1234,328,1225,294"/>
+<area shape="rect" id="Node000012" href="$lcd__module__160x80__096__in_8h.html" title=" " alt="" coords="1389,328,1620,397"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="1300,282,1416,325,1414,330,1298,287"/>
+<area shape="rect" id="Node000015" href="$msp4031_8h.html" title=" " alt="" coords="1644,335,1896,390"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="1671,286,1735,333,1732,337,1668,291"/>
+<area shape="rect" id="Node000017" href="$ssd1327_8h.html" title=" " alt="" coords="1735,225,1914,280"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="1717,182,1783,223,1781,227,1714,187"/>
+</map>

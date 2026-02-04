@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['input_5fiterator_2eh_0',['input_iterator.h',['../input__iterator_8h.html',1,'']]],
+  ['input_5fstream_2eh_1',['input_stream.h',['../input__stream_8h.html',1,'']]],
+  ['input_5fstream_5freader_2eh_2',['input_stream_reader.h',['../input__stream__reader_8h.html',1,'']]],
+  ['inputerror_3',['InputError',['../namespaceroo__io.html#aff37483c6c2e5779212266fa255c6339',1,'roo_io']]],
+  ['inputstatus_4',['inputStatus',['../classroo__io_1_1RingPipe.html#a4a2c87c27add480cf5dfd0fd9b477bf7',1,'roo_io::RingPipe']]],
+  ['inputstream_5',['InputStream',['../classroo__io_1_1InputStream.html',1,'roo_io']]],
+  ['inputstreamreader_6',['inputstreamreader',['../classroo__io_1_1InputStreamReader.html',1,'roo_io::InputStreamReader'],['../classroo__io_1_1InputStreamReader.html#a97dcf3e2d7a31c8871f72d4a2b09cda2',1,'roo_io::InputStreamReader::InputStreamReader(roo_io::InputStream &amp;is)'],['../classroo__io_1_1InputStreamReader.html#a1b3bc406584a161f57e1f4514f5a3259',1,'roo_io::InputStreamReader::InputStreamReader(std::unique_ptr&lt; roo_io::InputStream &gt; is)'],['../classroo__io_1_1InputStreamReader.html#af1ec615ce2fcc02786195097afbf4c19',1,'roo_io::InputStreamReader::InputStreamReader(InputStreamReader &amp;&amp;other)'],['../classroo__io_1_1InputStreamReader.html#afb759d0469f96a736dfaea1e2a15c6bf',1,'roo_io::InputStreamReader::InputStreamReader()']]],
+  ['integerreader_7',['IntegerReader',['../classroo__io_1_1IntegerReader.html',1,'roo_io']]],
+  ['integerreader_3c_20kbigendian_20_3e_8',['IntegerReader&lt; kBigEndian &gt;',['../classroo__io_1_1IntegerReader_3_01kBigEndian_01_4.html',1,'roo_io']]],
+  ['integerreader_3c_20klittleendian_20_3e_9',['IntegerReader&lt; kLittleEndian &gt;',['../classroo__io_1_1IntegerReader_3_01kLittleEndian_01_4.html',1,'roo_io']]],
+  ['isdirectory_10',['isdirectory',['../classroo__io_1_1Directory_1_1Entry.html#ac800907140b9178600820554d2795449',1,'roo_io::Directory::Entry::isDirectory()'],['../classroo__io_1_1Stat.html#a9a1abf561ce8f2db541ba11d719184c0',1,'roo_io::Stat::isDirectory() const']]],
+  ['isfile_11',['isFile',['../classroo__io_1_1Stat.html#a3d8ce1b9216d28e5a5676ddf85b864b7',1,'roo_io::Stat']]],
+  ['isinuse_12',['isInUse',['../classroo__io_1_1Filesystem.html#aeb17d15783a1931f19d9485874019026',1,'roo_io::Filesystem']]],
+  ['ismounted_13',['isMounted',['../classroo__io_1_1Filesystem.html#a33d74ef229aa386d5b71d0a5d768775a',1,'roo_io::Filesystem']]],
+  ['isopen_14',['isopen',['../classroo__io_1_1OutputStream.html#ad21354e2fe01e02f0d25a262dc64dc37',1,'roo_io::OutputStream::isOpen()'],['../classroo__io_1_1MemoryInputStream.html#a2810b34f27a9d0b168f7ec1feb69e7da',1,'roo_io::MemoryInputStream::isOpen()'],['../classroo__io_1_1Directory.html#a40b433c55ff392577f19bafcf6326631',1,'roo_io::Directory::isOpen()'],['../classroo__io_1_1MultipassInputStreamReader.html#aa7c3f3aeab3bc22ca73f60eff012251a',1,'roo_io::MultipassInputStreamReader::isOpen()'],['../classroo__io_1_1NullInputStream.html#a1f07898cc08e5bd63a234e6d43fc557f',1,'roo_io::NullInputStream::isOpen()'],['../classroo__io_1_1InputStream.html#a4b401ad2f581aaecaa2b144d177ba031',1,'roo_io::InputStream::isOpen()']]],
+  ['isreadonly_15',['isreadonly',['../classroo__io_1_1Mount.html#ac2bed7a2e5ad27cdb32ac4ad63598f8c',1,'roo_io::Mount::isReadOnly()'],['../classroo__io_1_1MountImpl.html#ab34ae4c1b591544da99ddf208486360b',1,'roo_io::MountImpl::isReadOnly()']]],
+  ['iterable_2eh_16',['iterable.h',['../iterable_8h.html',1,'']]],
+  ['iterator_17',['iterator',['../classroo__io_1_1FileIterable.html#a5810b14887ea6f989fc49d98e3fed7b3',1,'roo_io::FileIterable::iterator()'],['../classroo__io_1_1UnsafeGenericMemoryIterable.html#afc6a35b2792f43ebdfcc247a5e8776b7',1,'roo_io::UnsafeGenericMemoryIterable::iterator()'],['../classroo__io_1_1SafeGenericMemoryIterable.html#a2212a2cec38bfbd8ec8f73160defa5b5',1,'roo_io::SafeGenericMemoryIterable::iterator()'],['../classroo__io_1_1MultipassGenericMemoryIterable.html#aec0058b7806e5be33690ba0e4224047e',1,'roo_io::MultipassGenericMemoryIterable::iterator()']]]
+];

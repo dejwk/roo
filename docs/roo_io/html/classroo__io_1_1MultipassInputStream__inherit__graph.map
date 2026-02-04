@@ -1,0 +1,9 @@
+<map id="roo_io::MultipassInputStream" name="roo_io::MultipassInputStream">
+<area shape="rect" id="Node000001" title=" " alt="" coords="107,79,321,104"/>
+<area shape="rect" id="Node000003" href="$classroo__io_1_1MemoryInputStream.html" title=" " alt="" coords="5,152,209,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,114,135,154,131,150,186,110"/>
+<area shape="rect" id="Node000004" href="$classroo__io_1_1NullInputStream.html" title=" " alt="" coords="234,159,410,185"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,110,308,157,304,161,239,114"/>
+<area shape="rect" id="Node000002" href="$classroo__io_1_1InputStream.html" title=" " alt="" coords="139,5,289,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,44,217,79,211,79,211,44"/>
+</map>

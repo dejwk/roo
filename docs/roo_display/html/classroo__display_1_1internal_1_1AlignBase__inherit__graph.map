@@ -1,0 +1,7 @@
+<map id="roo_display::internal::AlignBase" name="roo_display::internal::AlignBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,5,241,45"/>
+<area shape="rect" id="Node000002" href="$classroo__display_1_1HAlign.html" title=" " alt="" coords="5,93,152,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,57,93,95,90,91,132,53"/>
+<area shape="rect" id="Node000003" href="$classroo__display_1_1VAlign.html" title=" " alt="" coords="177,93,322,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,53,238,91,235,95,193,57"/>
+</map>

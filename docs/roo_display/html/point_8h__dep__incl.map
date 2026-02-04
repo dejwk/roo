@@ -1,0 +1,20 @@
+<map id="temp_repos/roo_display/src/roo_display/shape/point.h" name="temp_repos/roo_display/src/roo_display/shape/point.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="309,5,488,60"/>
+<area shape="rect" id="Node000002" href="$gradient_8h.html" title=" " alt="" coords="5,211,184,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,62,246,82,198,110,171,134,147,160,111,212,107,209,143,157,167,130,194,106,243,77,295,57"/>
+<area shape="rect" id="Node000004" href="$basic_8h.html" title=" " alt="" coords="411,108,589,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="437,68,475,106,472,110,433,72"/>
+<area shape="rect" id="Node000006" href="$smooth_8h.html" title=" " alt="" coords="208,108,387,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="364,72,326,110,322,106,360,68"/>
+<area shape="rect" id="Node000008" href="$smooth__transformation_8h.html" title=" " alt="" coords="618,108,809,163"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="494,62,632,105,631,110,492,67"/>
+<area shape="rect" id="Node000003" href="$gradient_8cpp.html" title=" " alt="" coords="5,313,184,368"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,279,97,313,92,313,92,279"/>
+<area shape="rect" id="Node000005" href="$basic_8cpp.html" title=" " alt="" coords="411,211,589,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="503,176,503,211,497,211,497,176"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="234,171,149,213,146,208,231,166"/>
+<area shape="rect" id="Node000007" href="$smooth_8cpp.html" title=" " alt="" coords="208,211,387,265"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="300,176,300,211,295,211,295,176"/>
+<area shape="rect" id="Node000009" href="$smooth__transformation_8cpp.html" title=" " alt="" coords="614,211,821,265"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="718,176,719,210,714,211,712,177"/>
+</map>

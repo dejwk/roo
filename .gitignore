@@ -1,0 +1,4 @@
+temp_repos/
+Doxyfile.*
+*.log
+.DS_Store

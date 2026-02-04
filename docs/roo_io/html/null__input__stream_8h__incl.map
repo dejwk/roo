@@ -1,0 +1,20 @@
+<map id="temp_repos/roo_io/src/roo_io/core/null_input_stream.h" name="temp_repos/roo_io/src/roo_io/core/null_input_stream.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="72,5,239,60"/>
+<area shape="rect" id="Node000002" href="$multipass__input__stream_8h.html" title=" " alt="" coords="74,108,237,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,60,158,94,153,94,153,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="43,269,129,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="144,150,115,197,95,256,90,255,110,195,139,147"/>
+<area shape="rect" id="Node000004" href="$input__stream_8h.html" title=" " alt="" coords="125,196,321,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="174,146,206,184,202,187,170,150"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="202,224,122,265,119,261,200,219"/>
+<area shape="rect" id="Node000005" href="$byte_8h.html" title=" " alt="" coords="153,269,296,295"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="226,222,227,256,222,256,221,222"/>
+<area shape="rect" id="Node000008" href="$status_8h.html" title=" " alt="" coords="321,269,440,295"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="250,219,344,261,342,266,248,224"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,343,124,368"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="200,297,104,339,102,335,198,292"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="149,343,301,368"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="227,295,227,329,222,329,222,295"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="325,343,436,368"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="383,295,383,329,378,329,378,295"/>
+</map>

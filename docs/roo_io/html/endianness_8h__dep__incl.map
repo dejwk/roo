@@ -1,0 +1,29 @@
+<map id="temp_repos/roo_io/src/roo_io/third_party/endianness.h" name="temp_repos/roo_io/src/roo_io/third_party/endianness.h">
+<area shape="rect" id="Node000001" title="Convert Endianness of shorts, longs, long longs, regardless of architecture/OS." alt="" coords="471,5,702,45"/>
+<area shape="rect" id="Node000002" href="$byte__order_8h.html" title=" " alt="" coords="495,93,679,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="589,59,589,93,584,93,584,59"/>
+<area shape="rect" id="Node000003" href="$input__stream__reader_8h.html" title=" " alt="" coords="5,269,195,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="481,122,421,129,356,141,290,159,228,184,197,202,168,225,123,271,119,267,165,221,194,198,225,179,289,153,355,135,420,123,480,116"/>
+<area shape="rect" id="Node000004" href="$multipass__input__stream__reader_8h.html" title=" " alt="" coords="410,269,585,324"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="533,142,510,160,493,183,486,204,484,226,491,269,486,270,479,227,481,203,488,180,506,156,529,138"/>
+<area shape="rect" id="Node000007" href="$output__stream__writer_8h.html" title=" " alt="" coords="609,269,807,324"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="640,138,664,157,685,180,696,202,704,225,710,269,705,270,699,227,691,204,680,183,661,161,637,143"/>
+<area shape="rect" id="Node000008" href="$read_8h.html" title=" " alt="" coords="239,181,406,221"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="517,140,381,184,380,179,515,135"/>
+<area shape="rect" id="Node000010" href="$write_8h.html" title=" " alt="" coords="503,181,670,221"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="589,147,589,181,584,181,584,147"/>
+<area shape="rect" id="Node000011" href="$load_8h.html" title=" " alt="" coords="746,181,915,221"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="654,135,778,179,776,184,652,140"/>
+<area shape="rect" id="Node000012" href="$store_8h.html" title=" " alt="" coords="939,181,1114,221"/>
+<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="693,133,940,180,939,186,692,138"/>
+<area shape="rect" id="Node000005" href="$fsutil_8h.html" title=" " alt="" coords="519,372,686,412"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="539,331,583,370,580,374,536,335"/>
+<area shape="rect" id="Node000006" href="$fsutil_8cpp.html" title=" " alt="" coords="519,460,686,500"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="605,426,605,460,600,460,600,426"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="670,335,626,374,622,370,666,331"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="266,229,164,272,162,267,264,224"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="371,225,449,267,447,272,369,230"/>
+<area shape="rect" id="Node000009" href="$unicode_8h.html" title=" " alt="" coords="219,277,386,317"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="318,235,309,277,304,276,313,234"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="624,228,675,267,672,271,620,232"/>
+</map>

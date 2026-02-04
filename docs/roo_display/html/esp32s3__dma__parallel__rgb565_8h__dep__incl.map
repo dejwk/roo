@@ -1,0 +1,9 @@
+<map id="temp_repos/roo_display/src/roo_display/driver/esp32s3_dma_parallel_rgb565.h" name="temp_repos/roo_display/src/roo_display/driver/esp32s3_dma_parallel_rgb565.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="108,5,344,60"/>
+<area shape="rect" id="Node000002" href="$esp32s3__parallel__ips__capacitive_8h.html" title=" " alt="" coords="5,108,215,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,72,148,110,144,106,186,68"/>
+<area shape="rect" id="Node000004" href="$esp32s3__parallel__ips__capacitive__43_8h.html" title=" " alt="" coords="239,108,448,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,68,308,106,305,110,263,72"/>
+<area shape="rect" id="Node000003" href="$esp32s3__parallel__ips__capacitive__70_8h.html" title=" " alt="" coords="5,225,215,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,191,113,225,107,225,107,191"/>
+</map>

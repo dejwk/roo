@@ -1,0 +1,31 @@
+<map id="temp_repos/roo_io/src/roo_io/fs/directory.h" name="temp_repos/roo_io/src/roo_io/fs/directory.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="344,5,511,45"/>
+<area shape="rect" id="Node000002" href="$directory_8cpp.html" title=" " alt="" coords="83,196,252,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="352,53,310,71,270,95,242,120,217,147,181,197,177,194,213,144,239,116,267,91,308,67,350,48"/>
+<area shape="rect" id="Node000003" href="$directory__impl_8h.html" title=" " alt="" coords="281,93,448,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="409,58,385,95,380,92,405,55"/>
+<area shape="rect" id="Node000005" href="$filesystem_8h.html" title=" " alt="" coords="403,372,569,412"/>
+<area shape="poly" id="edge15_Node000001_Node000005" title=" " alt="" coords="457,54,487,92,547,182,566,225,583,283,588,305,583,325,560,354,531,374,528,370,556,350,578,323,583,305,578,285,561,227,542,185,483,95,453,57"/>
+<area shape="rect" id="Node000012" href="$mount_8h.html" title=" " alt="" coords="403,284,569,324"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="447,57,462,93,474,146,482,200,488,284,483,284,477,200,469,147,457,94,442,59"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="298,156,209,198,206,193,296,151"/>
+<area shape="rect" id="Node000004" href="$mount__impl_8h.html" title=" " alt="" coords="277,196,453,236"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="367,162,367,196,362,196,362,162"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="369,249,376,286,392,323,418,349,448,370,445,374,414,353,388,325,371,288,364,250"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="404,242,461,282,458,286,401,246"/>
+<area shape="rect" id="Node000013" href="$mount__impl_8cpp.html" title=" " alt="" coords="136,284,327,324"/>
+<area shape="poly" id="edge14_Node000004_Node000013" title=" " alt="" coords="325,246,262,286,259,282,322,241"/>
+<area shape="rect" id="Node000006" href="$roo__io_8h.html" title=" " alt="" coords="5,460,172,500"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="389,417,173,463,172,458,388,412"/>
+<area shape="rect" id="Node000007" href="$file__iterable_8h.html" title=" " alt="" coords="196,460,371,500"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="430,420,329,462,327,458,428,415"/>
+<area shape="rect" id="Node000008" href="$file__resource_8h.html" title=" " alt="" coords="395,460,577,500"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="489,426,489,460,483,460,483,426"/>
+<area shape="rect" id="Node000009" href="$filesystem_8cpp.html" title=" " alt="" coords="601,460,782,500"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="545,415,647,458,645,462,543,420"/>
+<area shape="rect" id="Node000010" href="$fsutil_8h.html" title=" " alt="" coords="807,460,973,500"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="584,411,807,458,806,464,582,416"/>
+<area shape="rect" id="Node000011" href="$fsutil_8cpp.html" title=" " alt="" coords="807,548,973,588"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="893,514,893,548,887,548,887,514"/>
+<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="489,338,489,372,483,372,483,338"/>
+</map>

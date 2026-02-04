@@ -1,0 +1,9 @@
+<map id="roo_display::Raster&lt; PtrTypeT, ColorModeT, pixel_order, byte_order &gt;" name="roo_display::Raster&lt; PtrTypeT, ColorModeT, pixel_order, byte_order &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,196,280"/>
+<area shape="rect" id="Node000002" href="$classroo__display_1_1Rasterizable.html" title=" " alt="" coords="8,152,193,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,191,103,225,98,225,98,191"/>
+<area shape="rect" id="Node000003" href="$classroo__display_1_1Streamable.html" title=" " alt="" coords="11,79,190,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
+<area shape="rect" id="Node000004" href="$classroo__display_1_1Drawable.html" title=" " alt="" coords="17,5,184,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
+</map>

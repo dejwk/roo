@@ -1,0 +1,31 @@
+<map id="temp_repos/roo_io/src/roo_io/core/input_iterator.h" name="temp_repos/roo_io/src/roo_io/core/input_iterator.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="463,5,665,45"/>
+<area shape="rect" id="Node000002" href="$buffered__input__stream__iterator_8h.html" title=" " alt="" coords="5,211,187,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="450,51,380,70,310,96,258,123,209,154,129,213,126,208,206,149,256,118,308,91,378,65,449,45"/>
+<area shape="rect" id="Node000004" href="$buffered__multipass__input__stream__iterator_8h.html" title=" " alt="" coords="576,93,763,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="596,53,636,91,632,95,592,57"/>
+<area shape="rect" id="Node000009" href="$multipass__input__iterator_8h.html" title=" " alt="" coords="913,101,1079,155"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="679,44,784,65,894,91,920,98,918,103,893,96,783,70,678,49"/>
+<area shape="rect" id="Node000010" href="$read_8h.html" title=" " alt="" coords="211,218,378,258"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="451,47,401,66,358,95,334,124,317,158,300,219,295,217,312,156,330,121,354,91,399,61,449,42"/>
+<area shape="rect" id="Node000011" href="$unicode_8h.html" title=" " alt="" coords="707,321,874,361"/>
+<area shape="poly" id="edge16_Node000001_Node000011" title=" " alt="" coords="679,45,730,64,776,91,820,129,849,168,858,189,861,212,859,238,852,266,835,297,814,322,810,319,831,294,847,264,854,237,856,212,853,190,845,170,816,132,773,96,727,68,677,50"/>
+<area shape="rect" id="Node000012" href="$memory__input__iterator_8h.html" title=" " alt="" coords="368,101,552,155"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="537,57,489,102,485,98,533,53"/>
+<area shape="rect" id="Node000003" href="$input__stream__reader_8h.html" title=" " alt="" coords="100,313,289,368"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,273,171,311,167,315,130,277"/>
+<area shape="rect" id="Node000005" href="$multipass__input__stream__reader_8h.html" title=" " alt="" coords="425,313,599,368"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="653,176,631,222,601,267,576,293,550,315,547,311,573,289,597,264,626,219,648,174"/>
+<area shape="rect" id="Node000008" href="$file__iterable_8h.html" title=" " alt="" coords="662,218,837,258"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="704,172,737,216,733,219,700,175"/>
+<area shape="rect" id="Node000006" href="$fsutil_8h.html" title=" " alt="" coords="429,416,595,456"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="515,382,515,416,509,416,509,382"/>
+<area shape="rect" id="Node000007" href="$fsutil_8cpp.html" title=" " alt="" coords="429,504,595,544"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="515,470,515,504,509,504,509,470"/>
+<area shape="poly" id="edge10_Node000010_Node000003" title=" " alt="" coords="268,270,223,315,219,311,264,266"/>
+<area shape="poly" id="edge11_Node000010_Node000005" title=" " alt="" coords="349,261,456,311,454,316,347,266"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="375,259,391,263,560,297,708,323,707,329,559,302,390,268,374,264"/>
+<area shape="poly" id="edge14_Node000012_Node000010" title=" " alt="" coords="409,165,325,220,322,216,407,161"/>
+<area shape="rect" id="Node000013" href="$memory__iterable_8h.html" title=" " alt="" coords="403,211,587,265"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="475,168,489,210,484,211,470,169"/>
+</map>
