@@ -71,7 +71,9 @@ for REPO in "${REPOS[@]}"; do
         cd ../..
     else
         echo "  ⬇ Cloning repository..."
-        if ! git clone -q --depth 1 "https://github.com/$GITHUB_USER/$REPO.git" "$TEMP_DIR/$REPO" 2>&1 | grep -v "^Cloning"; then
+        if git clone -q --depth 1 "https://github.com/$GITHUB_USER/$REPO.git" "$TEMP_DIR/$REPO"; then
+            echo "  ✓ Cloned successfully"
+        else
             echo "  ✗ Failed to clone $REPO, skipping..."
             FAILED+=("$REPO")
             echo ""
