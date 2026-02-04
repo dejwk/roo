@@ -1,4 +1,4 @@
-# roo.github.io
+# roo
 
 API Documentation for the 'roo' libraries - a collection of Arduino-compatible C++ libraries for ESP32 and related microcontrollers.
 
@@ -14,7 +14,7 @@ This repository hosts the API documentation for the [roo libraries](https://gith
 
 ## Documentation
 
-Visit [https://dejwk.github.io/roo.github.io/](https://dejwk.github.io/roo.github.io/) to view the complete API documentation.
+Visit [https://dejwk.github.io/roo/](https://dejwk.github.io/roo/) to view the complete API documentation.
 
 ## How it Works
 
