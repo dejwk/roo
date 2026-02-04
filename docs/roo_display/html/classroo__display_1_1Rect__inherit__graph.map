@@ -1,9 +1,0 @@
-<map id="roo_display::Rect" name="roo_display::Rect">
-<area shape="rect" id="Node000001" title=" " alt="" coords="28,225,161,251"/>
-<area shape="rect" id="Node000002" href="$classroo__display_1_1RectBase.html" title=" " alt="" coords="12,152,177,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,191,97,225,92,225,92,191"/>
-<area shape="rect" id="Node000003" href="$classroo__display_1_1BasicShape.html" title=" " alt="" coords="5,79,184,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,118,97,152,92,152,92,118"/>
-<area shape="rect" id="Node000004" href="$classroo__display_1_1Drawable.html" title=" " alt="" coords="11,5,178,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
-</map>

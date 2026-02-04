@@ -1,9 +1,0 @@
-<map id="temp_repos/roo_display/src/roo_display/driver/st7735.h" name="temp_repos/roo_display/src/roo_display/driver/st7735.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="289,5,468,60"/>
-<area shape="rect" id="Node000002" href="$tft__module__128x128__144__in_8h.html" title=" " alt="" coords="5,108,235,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="304,68,202,110,200,105,302,63"/>
-<area shape="rect" id="Node000003" href="$lcd__module__128x160__18__in_8h.html" title=" " alt="" coords="259,108,498,177"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="381,74,381,108,376,108,376,74"/>
-<area shape="rect" id="Node000004" href="$lcd__module__160x80__096__in_8h.html" title=" " alt="" coords="522,108,753,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="455,63,558,105,556,110,453,68"/>
-</map>

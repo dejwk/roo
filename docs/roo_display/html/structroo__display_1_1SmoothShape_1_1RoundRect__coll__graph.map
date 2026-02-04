@@ -1,7 +1,0 @@
-<map id="roo_display::SmoothShape::RoundRect" name="roo_display::SmoothShape::RoundRect">
-<area shape="rect" id="Node000001" title=" " alt="" coords="56,123,251,163"/>
-<area shape="rect" id="Node000002" href="$classroo__display_1_1Color.html" title=" " alt="" coords="5,5,144,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,42,116,97,135,121,131,124,111,100,82,45"/>
-<area shape="rect" id="Node000003" href="$classroo__display_1_1Box.html" title=" " alt="" coords="169,5,298,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,45,221,73,206,100,183,124,179,120,202,97,216,71,225,44"/>
-</map>

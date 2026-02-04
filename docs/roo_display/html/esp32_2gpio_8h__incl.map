@@ -1,9 +1,0 @@
-<map id="temp_repos/roo_display/src/roo_display/hal/esp32/gpio.h" name="temp_repos/roo_display/src/roo_display/hal/esp32/gpio.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="126,5,317,60"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,109,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,62,93,104,90,99,170,58"/>
-<area shape="rect" id="Node000003" href="$config_8h.html" title=" " alt="" coords="133,108,309,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,60,224,94,219,94,219,60"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="334,108,466,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="277,58,365,100,363,104,275,62"/>
-</map>

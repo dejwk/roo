@@ -1,9 +1,0 @@
-<map id="roo_display::RadialGradient" name="roo_display::RadialGradient">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,207,251"/>
-<area shape="rect" id="Node000002" href="$classroo__display_1_1Rasterizable.html" title=" " alt="" coords="13,152,199,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,191,109,225,103,225,103,191"/>
-<area shape="rect" id="Node000003" href="$classroo__display_1_1Streamable.html" title=" " alt="" coords="17,79,195,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,118,109,152,103,152,103,118"/>
-<area shape="rect" id="Node000004" href="$classroo__display_1_1Drawable.html" title=" " alt="" coords="23,5,189,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
-</map>

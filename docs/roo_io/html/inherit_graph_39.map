@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classroo__io_1_1OutputStream.html" title=" " alt="" coords="5,70,167,95"/>
-<area shape="rect" id="Node000001" href="$classroo__io_1_1MemoryOutputStream.html" title=" " alt="" coords="217,5,431,45"/>
-<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="152,64,240,43,241,48,153,69"/>
-<area shape="rect" id="Node000002" href="$classroo__io_1_1NullOutputStream.html" title=" " alt="" coords="231,70,417,95"/>
-<area shape="poly" id="edge8_Node000000_Node000002" title=" " alt="" coords="181,80,230,80,230,85,181,85"/>
-<area shape="rect" id="Node000003" href="$classroo__io_1_1RingPipeOutputStream.html" title=" " alt="" coords="215,119,433,145"/>
-<area shape="poly" id="edge9_Node000000_Node000003" title=" " alt="" coords="162,96,262,117,261,122,160,101"/>
-</map>

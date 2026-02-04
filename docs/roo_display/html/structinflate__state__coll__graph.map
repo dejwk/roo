@@ -1,9 +1,0 @@
-<map id="inflate_state" name="inflate_state">
-<area shape="rect" id="Node000001" title=" " alt="" coords="126,137,229,163"/>
-<area shape="rect" id="Node000002" href="$structz__stream__s.html" title=" " alt="" coords="5,5,101,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,39,139,111,165,135,162,139,135,115,69,43"/>
-<area shape="rect" id="Node000003" href="$structgz__header__s.html" title=" " alt="" coords="126,5,229,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,44,180,137,175,137,175,44"/>
-<area shape="rect" id="Node000004" href="$structcode.html" title=" " alt="" coords="253,5,307,31"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,45,249,79,222,115,195,139,192,135,218,112,245,76,265,42"/>
-</map>

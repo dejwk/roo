@@ -1,9 +1,0 @@
-<map id="roo_display::internal::TileBase" name="roo_display::internal::TileBase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="72,79,227,119"/>
-<area shape="rect" id="Node000003" href="$classroo__display_1_1Tile.html" title=" " alt="" coords="5,174,133,199"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,131,82,175,78,172,120,127"/>
-<area shape="rect" id="Node000004" href="$classroo__display_1_1TileOf.html" title=" " alt="" coords="157,167,301,207"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,127,214,165,210,168,174,131"/>
-<area shape="rect" id="Node000002" href="$classroo__display_1_1Drawable.html" title=" " alt="" coords="66,5,233,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,44,152,79,147,79,147,44"/>
-</map>
