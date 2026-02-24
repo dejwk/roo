@@ -30,7 +30,19 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y doxygen graphviz
-          
+
+      - name: Download Doxygen Awesome assets
+        run: |
+          mkdir -p docs/doxygen-awesome
+          curl -fL -o docs/doxygen-awesome/doxygen-awesome.css \
+            https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/v2.4.1/doxygen-awesome.css
+          curl -fL -o docs/doxygen-awesome/doxygen-awesome-sidebar-only.css \
+            https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/v2.4.1/doxygen-awesome-sidebar-only.css
+          curl -fL -o docs/doxygen-awesome/doxygen-awesome-sidebar-only-darkmode-toggle.css \
+            https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/v2.4.1/doxygen-awesome-sidebar-only-darkmode-toggle.css
+          curl -fL -o docs/doxygen-awesome/doxygen-awesome-darkmode-toggle.js \
+            https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/v2.4.1/doxygen-awesome-darkmode-toggle.js
+
       - name: Generate documentation
         run: |
           bash generate_docs.sh

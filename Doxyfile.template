@@ -9,6 +9,15 @@ EXTRACT_STATIC         = YES
 GENERATE_HTML          = YES
 GENERATE_LATEX         = NO
 HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = NO
+HTML_COLORSTYLE        = LIGHT
+TREEVIEW_WIDTH         = 335
+HTML_HEADER            = header.html
+HTML_EXTRA_STYLESHEET  = docs/doxygen-awesome/doxygen-awesome.css \
+                         docs/doxygen-awesome/doxygen-awesome-sidebar-only.css \
+                         docs/doxygen-awesome/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_FILES       = docs/doxygen-awesome/doxygen-awesome-darkmode-toggle.js
 HAVE_DOT               = YES
 CALL_GRAPH             = NO
 CALLER_GRAPH           = NO
