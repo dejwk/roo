@@ -4,7 +4,7 @@ Generate index.html for the API documentation site.
 """
 
 import os
-import json
+import shutil
 from datetime import datetime, timezone
 
 # Repository information (name: description)
@@ -37,6 +37,43 @@ REPOS = {
     "roo_time_ds3231": "Arduino driver for DS3231 real-time clock, compliant with roo_time.",
 }
 
+def copy_theme_assets(output_dir, available_repos):
+    """Copy Doxygen theme assets to a stable docs/_theme directory.
+
+    Copies doxygen.css and tabs.css from the first available library's html/
+    output, and copies the doxygen-awesome CSS/JS files from docs/doxygen-awesome/.
+    Returns True if at least the doxygen.css was successfully copied.
+    """
+    theme_dir = os.path.join(output_dir, "_theme")
+    os.makedirs(theme_dir, exist_ok=True)
+
+    # Copy doxygen.css and tabs.css from the first library that has them
+    for repo in available_repos:
+        html_dir = os.path.join(output_dir, repo, "html")
+        copied = 0
+        for asset in ["doxygen.css", "tabs.css"]:
+            src = os.path.join(html_dir, asset)
+            if os.path.exists(src):
+                shutil.copy2(src, os.path.join(theme_dir, asset))
+                copied += 1
+        if copied > 0:
+            print(f"Copied doxygen.css/tabs.css from {repo}/html/ to {theme_dir}")
+            break
+
+    # Copy doxygen-awesome CSS/JS assets (already downloaded at a stable path)
+    awesome_dir = os.path.join(output_dir, "doxygen-awesome")
+    if os.path.isdir(awesome_dir):
+        for fname in os.listdir(awesome_dir):
+            src = os.path.join(awesome_dir, fname)
+            if os.path.isfile(src):
+                shutil.copy2(src, os.path.join(theme_dir, fname))
+        print(f"Copied doxygen-awesome assets to {theme_dir}")
+    else:
+        print(f"Warning: {awesome_dir} not found; theme assets may be incomplete")
+
+    return os.path.exists(os.path.join(theme_dir, "doxygen.css"))
+
+
 def generate_index():
     """Generate the index.html file."""
     
@@ -52,6 +89,9 @@ def generate_index():
     
     # Sort repositories alphabetically
     available_repos.sort()
+
+    # Copy Doxygen theme assets to a stable location
+    copy_theme_assets(output_dir, available_repos)
     
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -59,103 +99,58 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roo Libraries - API Documentation</title>
+    <link href="_theme/tabs.css" rel="stylesheet" type="text/css" />
+    <link href="_theme/doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="_theme/doxygen-awesome.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="_theme/doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript">
+        if (typeof DoxygenAwesomeDarkModeToggle !== "undefined") {{
+            DoxygenAwesomeDarkModeToggle.init();
+        }}
+    </script>
     <style>
-        * {{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }}
-        
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f5f5f5;
-            padding: 20px;
-        }}
-        
-        .container {{
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }}
-        
-        header {{
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #e0e0e0;
-        }}
-        
-        h1 {{
-            color: #1976d2;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }}
-        
-        .subtitle {{
-            color: #666;
-            font-size: 1.2em;
-        }}
-        
-        .intro {{
-            background-color: #e3f2fd;
-            padding: 20px;
-            border-radius: 5px;
-            margin-bottom: 30px;
-        }}
-        
-        .intro p {{
-            margin-bottom: 10px;
-        }}
-        
+        /* Card grid layout - not provided by the Doxygen theme */
         .repo-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 20px;
             margin-top: 30px;
         }}
-        
+
         .repo-card {{
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
+            border: 1px solid var(--separator-color, #e0e0e0);
+            border-radius: var(--border-radius-large, 8px);
             padding: 20px;
             transition: all 0.3s ease;
-            background-color: white;
         }}
-        
+
         .repo-card:hover {{
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
             transform: translateY(-2px);
         }}
-        
+
         .repo-card h2 {{
-            color: #1976d2;
             font-size: 1.3em;
             margin-bottom: 10px;
         }}
-        
+
         .repo-card a {{
             text-decoration: none;
             color: inherit;
         }}
-        
+
         .repo-card p {{
-            color: #666;
             font-size: 0.95em;
             margin-bottom: 15px;
             min-height: 60px;
         }}
-        
+
         .repo-links {{
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }}
-        
+
         .btn {{
             display: inline-block;
             padding: 8px 16px;
@@ -164,93 +159,96 @@ def generate_index():
             font-size: 0.9em;
             transition: all 0.2s ease;
         }}
-        
+
         .btn-primary {{
-            background-color: #1976d2;
+            background-color: var(--primary-color, #1976d2);
             color: white;
         }}
-        
+
         .btn-primary:hover {{
-            background-color: #1565c0;
+            background-color: var(--primary-dark-color, #1565c0);
         }}
-        
+
         .btn-secondary {{
-            background-color: #f5f5f5;
-            color: #333;
-            border: 1px solid #ddd;
+            background-color: var(--code-background, #f5f5f5);
+            color: var(--page-foreground-color, #333);
+            border: 1px solid var(--separator-color, #ddd);
         }}
-        
+
         .btn-secondary:hover {{
-            background-color: #e0e0e0;
+            background-color: var(--separator-color, #e0e0e0);
         }}
-        
+
         footer {{
             margin-top: 40px;
             padding-top: 20px;
-            border-top: 1px solid #e0e0e0;
+            border-top: 1px solid var(--separator-color, #e0e0e0);
             text-align: center;
-            color: #666;
             font-size: 0.9em;
-        }}
-        
-        .github-link {{
-            color: #1976d2;
-            text-decoration: none;
-        }}
-        
-        .github-link:hover {{
-            text-decoration: underline;
         }}
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🚀 Roo Libraries</h1>
-            <p class="subtitle">API Documentation</p>
-        </header>
-        
-        <div class="intro">
-            <p><strong>Welcome to the Roo Libraries API Documentation!</strong></p>
-            <p>The Roo libraries are a collection of Arduino-compatible C++ libraries for ESP32 and related microcontrollers. 
-               They provide powerful tools for displays, UI, I/O, testing, and more.</p>
-            <p>This documentation is automatically generated from the source code using Doxygen.</p>
+    <div id="top">
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr id="projectrow">
+                        <td id="projectalign">
+                            <div id="projectname">Roo Libraries</div>
+                            <div id="projectbrief">API Documentation</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        
-        <h2 style="margin-bottom: 20px;">Available Libraries ({len(available_repos)})</h2>
-        
-        <div class="repo-grid">
+    </div>
+    <div id="doc-content">
+        <div class="PageDoc">
+            <div class="contents">
+                <div class="textblock">
+                    <p><strong>Welcome to the Roo Libraries API Documentation!</strong></p>
+                    <p>The Roo libraries are a collection of Arduino-compatible C++ libraries for ESP32 and related microcontrollers.
+                       They provide powerful tools for displays, UI, I/O, testing, and more.</p>
+                    <p>This documentation is automatically generated from the source code using Doxygen.</p>
+                </div>
+
+                <h2 style="margin-bottom: 20px;">Available Libraries ({len(available_repos)})</h2>
+
+                <div class="repo-grid">
 """
     
     for repo in available_repos:
         description = REPOS.get(repo, "API documentation")
         html += f"""
-            <div class="repo-card">
-                <h2>{repo}</h2>
-                <p>{description}</p>
-                <div class="repo-links">
-                    <a href="{repo}/html/index.html" class="btn btn-primary">📚 API Docs</a>
-                    <a href="https://github.com/dejwk/{repo}" class="btn btn-secondary" target="_blank">💻 GitHub</a>
-                </div>
-            </div>
+                    <div class="repo-card">
+                        <h2>{repo}</h2>
+                        <p>{description}</p>
+                        <div class="repo-links">
+                            <a href="{repo}/html/index.html" class="btn btn-primary">📚 API Docs</a>
+                            <a href="https://github.com/dejwk/{repo}" class="btn btn-secondary" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
 """
     
     html += f"""
+                </div>
+
+                <footer>
+                    <p>Documentation generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
+                    <p>
+                        View all repositories:
+                        <a href="https://github.com/dejwk?tab=repositories&q=roo_" target="_blank">
+                            github.com/dejwk
+                        </a>
+                    </p>
+                    <p style="margin-top: 10px; font-size: 0.85em;">
+                        Powered by <a href="https://www.doxygen.nl/" target="_blank">Doxygen</a> |
+                        Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+                    </p>
+                </footer>
+            </div>
         </div>
-        
-        <footer>
-            <p>Documentation generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
-            <p>
-                View all repositories: 
-                <a href="https://github.com/dejwk?tab=repositories&q=roo_" class="github-link" target="_blank">
-                    github.com/dejwk
-                </a>
-            </p>
-            <p style="margin-top: 10px; font-size: 0.85em;">
-                Powered by <a href="https://www.doxygen.nl/" class="github-link" target="_blank">Doxygen</a> | 
-                Hosted on <a href="https://pages.github.com/" class="github-link" target="_blank">GitHub Pages</a>
-            </p>
-        </footer>
     </div>
 </body>
 </html>
